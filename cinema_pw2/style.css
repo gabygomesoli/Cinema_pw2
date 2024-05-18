@@ -1,0 +1,62 @@
+*{
+    background-color: black;
+}
+
+h2{
+    color: whitesmoke; 
+    text-align: center;
+}
+/* Reset de estilos para remoção de margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.navbar .logo img {
+    max-width: 500px;
+    height: 500;
+    width: 500;
+}
+
+.navbar .search input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.navbar .search button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
